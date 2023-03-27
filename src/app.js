@@ -1,12 +1,13 @@
 const express = require('express');
-
+const productControler = require('./controllers/productController');
 const app = express();
-//oi
 
 // não remova esse endpoint, é para o avaliador funcionar
 app.get('/', (_request, response) => {
   response.send();
 });
+app.get('/products', productControler.findAllItens);
+app.get('/products/:id', productControler.findItensById);
 
 // não remova essa exportação, é para o avaliador funcionar
 // você pode registrar suas rotas normalmente, como o exemplo acima
