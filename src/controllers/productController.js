@@ -19,7 +19,7 @@ const createItems = async (req, res) => {
   const id = await productService.createItems(name);
   if (id.status) {
     return res.status(id.status).json(id.response);
-  };
+  }
   return res.status(201).json({ id, name });
 };
 
