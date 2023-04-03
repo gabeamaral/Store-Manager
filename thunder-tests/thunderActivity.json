@@ -1,0 +1,54 @@
+[
+  {
+    "_id": "82e24f6a-6c20-4ae4-a001-6400b917be6c",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:3001/product",
+    "url": "https://localhost:3001/product",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-03T16:11:06.109Z",
+    "modified": "2023-04-03T16:11:06.109Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "bc4f1929-48c2-43ad-86fd-03b6dcfac092",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:3001/products",
+    "url": "https://localhost:3001/products",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-03T16:11:09.040Z",
+    "modified": "2023-04-03T16:11:44.288Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{ \"name\": \"batatinha\" }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "ee618d4f-b30e-4fc3-9987-7e5c5efd6740",
+    "colId": "history",
+    "containerId": "",
+    "name": "https://localhost:3001/products",
+    "url": "https://localhost:3001/products",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-04-03T16:12:19.653Z",
+    "modified": "2023-04-03T16:15:09.881Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{ \"name\": \"batatinha\" }",
+      "form": []
+    },
+    "tests": []
+  }
+]
