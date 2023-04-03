@@ -7,7 +7,6 @@ const app = express();
 app.get('/', (_request, response) => {
   response.send();
 });
-
 app.get('/products', productControler.findAllItens);
 app.get('/products/:id', productControler.findItensById);
 

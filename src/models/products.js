@@ -5,7 +5,7 @@ const findAllItens = async () => {
     'SELECT * FROM StoreManager.products',
   );
   return product;
-}
+};
 
 const findItensById = async (id) => {
   const [idProduct] = await connection.execute(

@@ -3,7 +3,7 @@ const productService = require('../services/productService');
 const findAllItens = async (_req, res) => {
   const product = await productService.findAllItens();
   res.status(200).json(product);
-}
+};
 
 const findItensById = async (req, res) => {
   const { id } = req.params;
