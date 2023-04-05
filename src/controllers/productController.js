@@ -40,9 +40,19 @@ const updateItems = async (req, res, next) => {
   }
 };
 
+const deleteItems = async (req, res) => {
+  const { id } = req.params;
+  const deletedItems = await productService.deleteItems(id);
+  if (deletedItems.affectedRows === 0) {
+    return res.status(404).json({ message: 'Product not found' });
+  }
+  return res.status(204).json();
+};
+
 module.exports = {
   findAllItens,
   findItensById,
   createItems,
   updateItems,
+  deleteItems,
 };
