@@ -1,4 +1,4 @@
-const mockItems = [
+const allItens = [
   {
     id: 1,
     name: "Martelo de Thor",
@@ -13,6 +13,12 @@ const mockItems = [
   },
 ];
 
+const oneItem = {
+  id: 1,
+  name: "Martelo de Thor",
+};
+
 module.exports = {
-  mockItems,
+  allItens,
+  oneItem,
 };
